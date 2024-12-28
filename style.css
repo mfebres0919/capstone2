@@ -1,0 +1,1569 @@
+* {
+    font-family: "Afacad Flux", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+
+/* WEBSITE CONTAINER */
+.website-container {
+    /* border: 5px solid red; */
+    height: 20vh;
+}
+
+/* FIRSTPAGE OF WEBSITE */
+.intro-section {
+    background-color: rgb(0, 0, 0);
+    height: 25vh;
+    /* border: 5px solid rgb(62, 210, 255); */
+}
+
+
+@media (min-width: 1280px) {
+
+
+    /* NAVIGATION BAR */
+   /* NAVIGATION BAR */
+    .intro-section {
+        height: 60vh;
+    }
+  
+   .navbar-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;
+
+    }
+
+    .navbar-container ul {
+        /* border: 5px solid blue; */
+        display: flex;
+        gap: 120px;
+        margin: 20px;
+        list-style: none;
+        padding-top: 40px;
+    }
+
+    .navbar-container a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 35px;
+        transition: color 0.5s ease; /* Add transition for smooth effect */
+    }
+
+    .navbar-container a:hover {
+        color:#9a9a9a; /* Change color to blue on hover */
+    }
+
+    
+    /* MAIN TITLE */
+    .main-title-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 6px solid green; */
+        margin-top: 80px;
+    }
+    
+    .main-title-container h1,p {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        /* text-transform: uppercase; */
+    }
+    
+    .main-title-container h1 {
+       font-size: 7rem;
+       text-transform: uppercase;
+    }
+    
+    .main-title-container p {
+        font-size: 25px;
+        text-transform: uppercase;
+     }
+    
+    .transition-span {
+        color: grey;
+    }
+    
+    
+    /* .................................................................................... */
+    
+    /* SECOND PAGE OF WEBSITE */
+    .firstpg-container {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        /* border: 5px solid yellow; */
+        align-items: center;
+    }
+    
+    .firstpg-container * {
+        color: black;
+        
+    }
+    
+    .firstpg-container h1 {
+        color:#004aad;
+        font-weight: bold;
+        font-size: 70px;
+    }
+    
+    .firstpg-container p {
+        font-size: 40px;
+        max-width: 810px;
+        padding: 10px;
+    }
+    
+    .pvamu-span {
+        font-weight: bold;
+    }
+    
+    .firstpg-container img {
+        max-width: 100%; /* Ensures the image fits within the website width */
+        height: 500px; /* Maintains the aspect ratio */
+        padding: 20px;
+        border-radius: 30px;
+        margin-bottom: 100px;
+    }
+    
+    /*.......................................................................................  */
+    
+    /* THIRD PAGE OF WEBSITE */
+    .second-section {
+        margin-top: 60px;
+        /* border: 5px solid blue; */
+    }
+    
+    .reasons-container {
+        border: 5px solid rgb(255, 255, 255);
+    }
+    
+    .reasons-container * {
+        color: black;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .reasons-container h1 {
+        color: black;
+        font-weight: bold;
+        font-size: 70px;
+        text-align: center;
+    }
+    
+    .reasons-container p {
+        color: black;
+        font-size: 35px;
+        text-align: center;
+    }
+
+
+    /* FLEXIBILITY CONTAINER */
+    .flexibility-container {
+        margin: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+     }
+     
+     .flexibility-container p,h5 {
+         color: black;
+         text-align: center;
+     }
+
+
+     .flexibility-container p {
+        font-size: 30px;
+        max-width: 900px;
+    }
+
+
+    .flexibility-container h5 {
+        font-size: 50px;
+    }
+
+
+     .flexibility-span {
+         color:#004aad;  
+         font-weight: bold;
+     }
+     
+    
+    
+    /* CREATIVITY CONTAINER */ 
+    .creativity-container {
+        margin: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    
+    .creativity-container p,h5 {
+        color: black;
+        text-align: center;
+    }
+
+    .creativity-container p {
+        font-size: 30px;
+        max-width: 900px;
+    }
+
+    .creativity-container h5 {
+        font-size: 40px;
+    }
+
+    .creative-span {
+        color:#004aad;  
+        font-weight: bold;
+    }
+    
+    .creativity-container,.flexibility-container, .happiness-container{
+        font-size: 15px;
+    }
+    
+    
+    /* HAPPINESS CONTAINER */
+    .happiness-container {
+        margin: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+     }
+     
+     .happiness-container p,h5 {
+         color: black;
+         text-align: center;
+     }
+
+     .happiness-container p {
+        font-size: 30px;
+        max-width: 900px;
+    }
+
+    .happiness-container h5 {
+        font-size: 40px;
+    }
+
+
+     .joy-span {
+         color:#004aad;  
+         font-weight: bold;
+     }
+    
+     .fufill-span {
+        color:#004aad;  
+        font-weight: bold;
+    }
+    
+    
+    /* ..................................................................................... */
+    /* FOURTH PAGE OF WEBSITE */
+    
+    .third-section {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 50px;
+        /* border: 5px solid yellow; */
+    }
+    
+    
+    .important-info-container {
+        justify-content: center;
+        text-align: center;
+        /* border: 5px solid lightgreen; */
+        padding: 20px;
+    }
+    
+    
+    .click-span {
+        color: #004aad;
+    }
+    
+
+    .together-container {
+        display: flex;
+        justify-content: center;
+        gap: 200px;
+    }
+
+
+
+    .portfolio-container {
+        display: flex;
+        /* border: 5px solid red; */
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+
+    .portfolio-container h5 {
+        font-size: 40px;
+    }
+
+    .portfolio-container svg {
+        height: 210px;
+        margin-bottom: 20px;
+    }
+    
+    
+    .resume-container {
+        display: flex;
+        /* border: 5px solid red; */
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    
+    .resume-container h5 {
+        font-size: 40px;
+    }
+    
+    .resume-container svg {
+        height: 210px;
+        margin-bottom: 20px;
+    }
+    
+    
+    .portfolio-container a {
+        text-decoration: none;
+        color:#004aad;
+    }
+    
+    .resume-container a {
+        text-decoration: none;
+        color:#004aad;
+    }
+    
+    
+    /* ..................................................................................... */
+    /* FIFTH PAGE OF WEBSITE */
+  
+    .about-me2-container { 
+        /* border: 5px solid red; */
+        padding: 20px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    .about-me2-container h1 {
+        color: black;
+        font-size: 90px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .me-span {
+        color: grey;
+    }
+    
+    .about-me2-container p {
+        color: black;
+        font-size: 35px;
+        max-width: 1200px;
+    }
+    
+    .aero-span {
+        color: #004aad;
+        font-weight: bold;
+    }
+    .og-span {
+        color: #004aad;
+        font-weight: bold;
+    }
+    
+    .fullstack-span {
+        color: #004aad;
+        font-weight: bold;
+    }
+    .startup-span {
+        color: #004aad;
+        font-weight: bold;
+    }
+    .company-span {
+        color: #004aad;
+        font-weight: bold;
+    }
+    
+    .about-me2-container img {
+        max-width: 100%; /* Ensures the image fits within the website width */
+        height: auto; /* Maintains the aspect ratio */
+        padding: 20px;
+        border-radius: 30px
+    }
+    
+    /* ..................................................................................... */
+    
+    /* sixth page of website */
+    
+    .fifth-section {
+        display: flex;
+        flex-direction: column;
+        /* border: 5px solid red; */
+    }
+    
+    .final-page-container {
+        border: 5px solid rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .final-page-container h1 {
+        text-align:center;
+        font-size: 50px;
+    }
+    
+    .final-page-container p {
+        color: black;
+        font-size: 20px;
+        max-width: 700px
+    }
+    
+    .socialmd-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 100px;
+        justify-content: center;
+        /* border: 5px solid blue; */
+        padding: 20px;
+        /* border: 5px solid red; */
+    }
+    
+    .socialmd-container h5{
+       padding: 10px;
+    }
+    
+    .socialmd-container h5 a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    }
+
+@media (max-width: 1281px) {
+
+
+        /* NAVIGATION BAR */
+        
+        .intro-section {
+            height: 40vh;
+        }
+      
+        .navbar-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+        
+        .navbar-container ul {
+            /* border: 5px solid blue; */
+            display: flex;
+            gap: 50px;
+            margin: 20px;
+            list-style: none;
+        }
+        
+        .navbar-container a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            /* border: 1px solid yellow; */
+            font-size: 25px;   
+        
+        }
+        
+        
+        /* MAIN TITLE */
+        .main-title-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* border: 6px solid green; */
+            margin: 20px;
+        }
+        
+        .main-title-container h1,p {
+            color: rgb(255, 255, 255);
+            text-align: center;
+            /* text-transform: uppercase; */
+        }
+        
+        .main-title-container h1 {
+           font-size: 60px;
+           text-transform: uppercase;
+        }
+        
+        .main-title-container p {
+            font-size: 25px;
+            text-transform: uppercase;
+         }
+        
+        .transition-span {
+            color: grey;
+        }
+        
+        
+        /* .................................................................................... */
+        
+        /* SECOND PAGE OF WEBSITE */
+        .firstpg-container {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            /* border: 5px solid yellow; */
+            align-items: center;
+        }
+        
+        .firstpg-container * {
+            color: black;
+            
+        }
+        
+        .firstpg-container h1 {
+            color:#004aad;
+            font-weight: bold;
+            font-size: 50px;
+        }
+        
+        .firstpg-container p {
+            font-size: 25px;
+            max-width: 510px;
+            padding: 10px;
+        }
+        
+        .pvamu-span {
+            font-weight: bold;
+        }
+        
+        .firstpg-container img {
+            max-width: 100%; /* Ensures the image fits within the website width */
+            height: auto; /* Maintains the aspect ratio */
+            padding: 20px;
+            border-radius: 30px
+        }
+        
+        /*.......................................................................................  */
+        
+        /* THIRD PAGE OF WEBSITE */
+        .second-section {
+            margin-top: 60px;
+            /* border: 5px solid blue; */
+        }
+        
+        .reasons-container {
+            border: 5px solid rgba(127, 17, 45, 0);
+        }
+        
+        .reasons-container * {
+            color: black;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .reasons-container h1 {
+            color: black;
+            font-weight: bold;
+            font-size: 50px;
+            text-align: center;
+        }
+        
+        .reasons-container p {
+            color: black;
+            font-size: 25px;
+            text-align: center;
+        }
+    
+    
+        /* FLEXIBILITY CONTAINER */
+        .flexibility-container {
+            margin: 40px;
+            
+         }
+         
+         .flexibility-container p,h5 {
+             color: black;
+             text-align: center;
+         }
+    
+    
+         .flexibility-container p {
+            font-size: 20px;
+        }
+    
+    
+        .flexibility-container h5 {
+            font-size: 40px;
+        }
+    
+    
+         .flexibility-span {
+             color:#004aad;  
+             font-weight: bold;
+         }
+         
+        
+        
+        /* CREATIVITY CONTAINER */ 
+        .creativity-container {
+           margin: 20px;
+           
+        }
+        
+        .creativity-container p,h5 {
+            color: black;
+            text-align: center;
+        }
+    
+        .creativity-container p {
+            font-size: 20px;
+        }
+    
+        .creativity-container h5 {
+            font-size: 40px;
+        }
+    
+        .creative-span {
+            color:#004aad;  
+            font-weight: bold;
+        }
+        
+        .creativity-container,.flexibility-container, .happiness-container{
+            font-size: 15px;
+        }
+        
+        
+        /* HAPPINESS CONTAINER */
+        .happiness-container {
+            margin: 20px;
+            /* border: 5px solid black; */
+            
+         }
+         
+         .happiness-container p,h5 {
+             color: black;
+             text-align: center;
+         }
+    
+         .happiness-container p {
+            font-size: 20px;
+        }
+    
+        .happiness-container h5 {
+            font-size: 40px;
+        }
+    
+    
+         .joy-span {
+             color:#004aad;  
+             font-weight: bold;
+         }
+        
+         .fufill-span {
+            color:#004aad;  
+            font-weight: bold;
+        }
+        
+        
+        /* ..................................................................................... */
+        /* FOURTH PAGE OF WEBSITE */
+        
+        .third-section {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding-top: 50px;
+            /* border: 5px solid yellow; */
+        }
+        
+        
+        .important-info-container {
+            justify-content: center;
+            text-align: center;
+            /* border: 5px solid lightgreen; */
+            padding: 20px;
+        }
+        
+        
+        .click-span {
+            color: #004aad;
+        }
+        
+    
+        .together-container {
+            display: flex;
+            justify-content: center;
+            gap: 200px;
+        }
+    
+    
+        .portfolio-container {
+            display: flex;
+            /* border: 5px solid red; */
+            flex-direction: column;
+            margin-bottom: 50px;
+        }
+    
+        .portfolio-container svg {
+            height: 150px;
+            margin-bottom: 20px;
+        }
+        
+        
+        .resume-container {
+            display: flex;
+            /* border: 5px solid red; */
+            flex-direction: column;
+            margin-bottom: 0px;
+        }
+        
+        
+        .resume-container svg {
+            height: 150px;
+            margin-bottom: 20px;
+        }
+        
+        
+        .portfolio-container a {
+            text-decoration: none;
+            color:#004aad;
+        }
+        
+        .resume-container a {
+            text-decoration: none;
+            color:#004aad;
+        }
+        
+        
+        /* ..................................................................................... */
+        /* FIFTH PAGE OF WEBSITE */
+      
+        .about-me2-container { 
+            /* border: 5px solid red; */
+            padding: 20px;
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        
+        .about-me2-container h1 {
+            color: black;
+            font-size: 70px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .me-span {
+            color: grey;
+        }
+        
+        .about-me2-container p {
+            color: black;
+            font-size: 20px;
+            max-width: 800px;
+        }
+        
+        .aero-span {
+            color: #004aad;
+            font-weight: bold;
+        }
+        .og-span {
+            color: #004aad;
+            font-weight: bold;
+        }
+        
+        .fullstack-span {
+            color: #004aad;
+            font-weight: bold;
+        }
+        .startup-span {
+            color: #004aad;
+            font-weight: bold;
+        }
+        .company-span {
+            color: #004aad;
+            font-weight: bold;
+        }
+        
+        .about-me2-container img {
+            max-width: 100%; /* Ensures the image fits within the website width */
+            height: auto; /* Maintains the aspect ratio */
+            padding: 20px;
+            border-radius: 30px
+        }
+        
+        /* ..................................................................................... */
+        
+        /* sixth page of website */
+        
+        .fifth-section {
+            display: flex;
+            flex-direction: column;
+            /* border: 5px solid red; */
+        }
+        
+        .final-page-container {
+            border: 5px solid rgb(255, 255, 255);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .final-page-container h1 {
+            text-align:center;
+            font-size: 50px;
+        }
+        
+        .final-page-container p {
+            color: black;
+            font-size: 20px;
+            max-width: 700px
+        }
+        
+        .socialmd-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* border: 5px solid blue; */
+            padding: 20px;
+        }
+        
+        .socialmd-container h5{
+           padding: 10px;
+        }
+        
+        .socialmd-container h5 a{
+            color: black;
+            text-decoration: none;
+        }
+        
+        }
+/* FIRST MEDIA QUERY */
+@media (max-width: 780px) {
+
+
+    /* NAVIGATION BAR */
+    
+    .intro-section {
+        height: 35vh;
+    }
+    .navbar-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    
+    .navbar-container ul {
+        /* border: 5px solid blue; */
+        display: flex;
+        gap: 50px;
+        margin: 20px;
+        list-style: none;
+    }
+    
+    .navbar-container a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        /* border: 1px solid yellow; */
+        font-size: 25px;   
+    
+    }
+    
+    
+    /* MAIN TITLE */
+    .main-title-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: 6px solid green; */
+        margin: 20px;
+    }
+    
+    .main-title-container h1,p {
+        color: white;
+        text-align: center;
+        /* text-transform: uppercase; */
+    }
+    
+    .main-title-container h1 {
+       font-size: 60px;
+       text-transform: uppercase;
+    }
+    
+    .main-title-container p {
+        font-size: 25px;
+        text-transform: uppercase;
+     }
+    
+    .transition-span {
+        color: grey;
+    }
+    
+    
+    /* .................................................................................... */
+    
+    /* SECOND PAGE OF WEBSITE */
+    .firstpg-container {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        /* border: 5px solid yellow; */
+        align-items: center;
+    }
+    
+    .firstpg-container * {
+        color: black;
+        
+    }
+    
+    .firstpg-container h1 {
+        color:#004aad;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    
+    .firstpg-container p {
+        font-size: 25px;
+        max-width: 510px;
+        padding: 10px;
+    }
+    
+    .pvamu-span {
+        font-weight: bold;
+    }
+    
+    .firstpg-container img {
+        max-width: 100%; /* Ensures the image fits within the website width */
+        height: auto; /* Maintains the aspect ratio */
+        padding: 20px;
+        border-radius: 30px
+    }
+    
+    /*.......................................................................................  */
+    
+    /* THIRD PAGE OF WEBSITE */
+    .second-section {
+        margin-top: 60px;
+        /* border: 5px solid blue; */
+    }
+    
+    .reasons-container {
+        border: 5px solid rgb(255, 251, 252);
+    }
+    
+    .reasons-container * {
+        color: black;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .reasons-container h1 {
+        color: black;
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .reasons-container p {
+        color: black;
+        font-size: 25px;
+        text-align: center;
+    }
+
+
+    /* FLEXIBILITY CONTAINER */
+    .flexibility-container {
+        margin: 40px;
+        
+     }
+     
+     .flexibility-container p,h5 {
+         color: black;
+         text-align: center;
+     }
+
+
+     .flexibility-container p {
+        font-size: 20px;
+    }
+
+
+    .flexibility-container h5 {
+        font-size: 40px;
+    }
+
+
+     .flexibility-span {
+         color:#004aad;  
+         font-weight: bold;
+     }
+     
+    
+    
+    /* CREATIVITY CONTAINER */ 
+    .creativity-container {
+       margin: 20px;
+       
+    }
+    
+    .creativity-container p,h5 {
+        color: black;
+        text-align: center;
+    }
+
+    .creativity-container p {
+        font-size: 20px;
+    }
+
+    .creativity-container h5 {
+        font-size: 40px;
+    }
+
+    .creative-span {
+        color:#004aad;  
+        font-weight: bold;
+    }
+    
+    .creativity-container,.flexibility-container, .happiness-container{
+        font-size: 15px;
+    }
+    
+    
+    /* HAPPINESS CONTAINER */
+    .happiness-container {
+        margin: 20px;
+        /* border: 5px solid black; */
+        
+     }
+     
+     .happiness-container p,h5 {
+         color: black;
+         text-align: center;
+     }
+
+     .happiness-container p {
+        font-size: 20px;
+    }
+
+    .happiness-container h5 {
+        font-size: 40px;
+    }
+
+
+     .joy-span {
+         color:#004aad;  
+         font-weight: bold;
+     }
+    
+     .fufill-span {
+        color:#004aad;  
+        font-weight: bold;
+    }
+    
+    
+    /* ..................................................................................... */
+    /* FOURTH PAGE OF WEBSITE */
+    
+    .third-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-top: 50px;
+        /* border: 5px solid yellow; */
+    }
+    
+    
+    .important-info-container {
+        justify-content: center;
+        text-align: center;
+        /* border: 5px solid lightgreen; */
+        padding: 20px;
+    }
+    
+    
+    .click-span {
+        color: #004aad;
+    }
+    
+    .portfolio-container {
+        display: flex;
+        /* border: 5px solid red; */
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .portfolio-container svg {
+        height: 150px;
+        margin-bottom: 20px;
+    }
+    
+    
+    .resume-container {
+        display: flex;
+        /* border: 5px solid red; */
+        flex-direction: rowq;
+        margin-bottom: 0px;
+    }
+    
+    
+    .resume-container svg {
+        height: 150px;
+        margin-bottom: 20px;
+    }
+    
+    
+    .portfolio-container a {
+        text-decoration: none;
+        color:#004aad;
+    }
+    
+    .resume-container a {
+        text-decoration: none;
+        color:#004aad;
+    }
+    
+    
+    /* ..................................................................................... */
+    /* FIFTH PAGE OF WEBSITE */
+    .fourth-container {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .about-me2-container { 
+        /* border: 5px solid red; */
+        padding: 20px;
+        margin-top: 50px;
+    }
+    
+    
+    .about-me2-container h1 {
+        color: black;
+        font-size: 70px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .me-span {
+        color: grey;
+    }
+    
+    .about-me2-container p {
+        color: black;
+        font-size: 20px;
+    }
+    
+    .aero-span {
+        color: #004aad;
+        font-weight: bold;
+    }
+    .og-span {
+        color: #004aad;
+        font-weight: bold;
+    }
+    
+    .fullstack-span {
+        color: #004aad;
+        font-weight: bold;
+    }
+    .startup-span {
+        color: #004aad;
+        font-weight: bold;
+    }
+    .company-span {
+        color: #004aad;
+        font-weight: bold;
+    }
+    
+    .about-me2-container img {
+        max-width: 100%; /* Ensures the image fits within the website width */
+        height: auto; /* Maintains the aspect ratio */
+        padding: 20px;
+        border-radius: 30px
+    }
+    
+    /* ..................................................................................... */
+    
+    /* sixth page of website */
+    
+    .fifth-section {
+        display: flex;
+        flex-direction: column;
+        /* border: 5px solid red; */
+    }
+    
+    .final-page-container {
+        border: 5px solid rgb(255, 255, 255);
+    }
+    
+    .final-page-container h1 {
+        text-align:center;
+        font-size: 50px;
+    }
+    
+    .final-page-container p {
+        color: black;
+        font-size: 20px;
+    }
+    
+    .socialmd-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: 5px solid blue; */
+        padding: 20px;
+    }
+    
+    .socialmd-container h5{
+       padding: 10px;
+    }
+    
+    .socialmd-container h5 a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    }
+    
+@media (max-width: 515px) {
+
+
+        /* NAVIGATION BAR */
+        .intro-section {
+            height: 40vh;
+        }
+        
+        .navbar-container ul li {
+            /* border: 5px solid blue; */
+            list-style: none;
+            text-align: center;
+            margin-top: 10px;
+        }
+        
+        .navbar-container a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            /* border: 1px solid yellow; */
+            font-size: 18px;  
+        
+        }
+        
+        
+        /* MAIN TITLE */
+        .main-title-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* border: 6px solid green; */
+            margin: 20px;
+        }
+        
+        .main-title-container h1,p {
+            color: white;
+            text-align: center;
+            /* text-transform: uppercase; */
+        }
+        
+        .main-title-container h1 {
+           font-size: 50px;
+           text-transform: uppercase;
+        }
+        
+        .main-title-container p {
+            font-size: 15px;
+            text-transform: uppercase;
+         }
+        
+        .transition-span {
+            color: grey;
+        }
+        
+        
+        /* .................................................................................... */
+        
+        /* SECOND PAGE OF WEBSITE */
+        .firstpg-container {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            /* border: 5px solid yellow; */
+            align-items: center;
+        }
+        
+        .firstpg-container * {
+            color: black;
+            
+        }
+        
+        .firstpg-container h1 {
+            color:#004aad;
+            font-weight: bold;
+            font-size: 40px;
+        }
+        
+        .firstpg-container p {
+            font-size: 20px;
+            max-width: 510px;
+            padding: 10px;
+        }
+        
+        .pvamu-span {
+            font-weight: bold;
+        }
+        
+        .firstpg-container img {
+            max-width: 100%; /* Ensures the image fits within the website width */
+            height: auto; /* Maintains the aspect ratio */
+            padding: 20px;
+            border-radius: 30px
+        }
+        
+        /*.......................................................................................  */
+        
+        /* THIRD PAGE OF WEBSITE */
+        .second-section {
+            margin-top: 60px;
+            /* border: 5px solid blue; */
+        }
+        
+        .reasons-container {
+            border: 5px solid rgb(255, 255, 255);
+        }
+        
+        .reasons-container * {
+            color: black;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .reasons-container h1 {
+            color: black;
+            font-weight: bold;
+            font-size: 35px;
+            text-align: center;
+        }
+        
+        /* FLEXIBILITY CONTAINER */
+        .flexibility-container {
+            margin: 20px;
+            padding: 20px;
+            
+         }
+         
+         .flexibility-container p,h5 {
+             color: black;
+             text-align: center;
+         }
+
+         .flexibility-container h5 {
+            font-size: 20px;
+         }
+         .flexibility-span {
+             color:#004aad;  
+             font-weight: bold;
+         }
+         
+        
+        
+        /* CREATIVITY CONTAINER */ 
+        .creativity-container {
+           margin: 40px;
+           padding: 20px;
+           
+        }
+        
+        .creativity-container p,h5 {
+            color: black;
+            text-align: center;
+        }
+
+        .creativity-container h5 {
+            font-size: 20px;
+        }
+
+        .creative-span {
+            color:#004aad;  
+            font-weight: bold;
+        }
+        
+        .creativity-container,.flexibility-container, .happiness-container{
+            font-size: 15px;
+        }
+        
+        
+        /* HAPPINESS CONTAINER */
+        .happiness-container {
+            margin: 20px;
+            padding: 20px;
+            /* border: 5px solid black; */
+            
+         }
+         
+         .happiness-container p,h5 {
+             color: black;
+             text-align: center;
+         }
+
+         .happiness-container h5 {
+            font-size: 20px;
+         }
+         .joy-span {
+             color:#004aad;  
+             font-weight: bold;
+         }
+        
+         .fufill-span {
+            color:#004aad;  
+            font-weight: bold;
+        }
+        
+        
+        /* ..................................................................................... */
+        /* FOURTH PAGE OF WEBSITE */
+       
+        
+        .portfolio-container {
+            /* border: 5px solid yellow; */
+            margin-bottom: 0;
+        }
+        
+        .resume-container {
+            /* border: 5px solid blue; */
+            margin-top: 0;
+        }
+            
+
+        .portfolio-container a {
+            text-decoration: none;
+            color:#004aad;
+        }
+        
+        .resume-container a {
+            text-decoration: none;
+            color:#004aad;
+        }
+        
+        
+        /* ..................................................................................... */
+        /* FIFTH PAGE OF WEBSITE */
+        .fourth-container {
+            display: flex;
+            flex-direction: column;
+            
+        }
+        
+        .about-me2-container { 
+            /* border: 5px solid red; */
+            padding: 20px;
+            margin-top: 50px;
+        }
+        
+        
+        .about-me2-container h1 {
+            color: black;
+            font-size: 40px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .me-span {
+            color: grey;
+        }
+        
+        .about-me2-container p {
+            color: black;
+            font-size: 15px;
+        }
+        
+        .aero-span {
+            color: #004aad;
+            font-weight: bold;
+        }
+        .og-span {
+            color: #004aad;
+            font-weight: bold;
+        }
+        
+        .fullstack-span {
+            color: #004aad;
+            font-weight: bold;
+        }
+        .startup-span {
+            color: #004aad;
+            font-weight: bold;
+        }
+        .company-span {
+            color: #004aad;
+            font-weight: bold;
+        }
+        
+        .about-me2-container img {
+            max-width: 100%; /* Ensures the image fits within the website width */
+            height: auto; /* Maintains the aspect ratio */
+            padding: 20px;
+            border-radius: 30px
+        }
+        
+        /* ..................................................................................... */
+        
+        /* sixth page of website */
+        
+        .fifth-section {
+            display: flex;
+            flex-direction: column;
+            /* border: 5px solid red; */
+        }
+        
+        .final-page-container {
+            border: 5px solid rgb(255, 255, 255);
+        }
+        
+        .final-page-container h1 {
+            text-align:center;
+        }
+        
+        .final-page-container p {
+            color: black;
+            font-size: 15px;
+            margin: 20px;
+        }
+        
+        .socialmd-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* border: 5px solid blue; */
+            padding: 20px;
+        }
+        
+        .socialmd-container h5{
+           padding: 10px;
+        }
+        
+        .socialmd-container h5 a{
+            color: black;
+            text-decoration: none;
+        }
+        
+        }
